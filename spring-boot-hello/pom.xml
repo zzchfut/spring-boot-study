@@ -56,12 +56,6 @@
   </dependencyManagement>
 
 <dependencies>
-    <!--<dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>-->
     <!-- spring boot 核心配置 -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -85,14 +79,14 @@
     </dependency>-->
 
      <!--spring mybatis开发： 包含spring-boot-starter-jdbc的依赖关系-->
-    <dependency>
+    <!--<dependency>
       <groupId>org.mybatis.spring.boot</groupId>
       <artifactId>mybatis-spring-boot-starter</artifactId>
       <version>1.3.1</version>
-    </dependency>
+    </dependency>-->
 
     <!--mysql驱动JAR包-->
-    <dependency>
+    <!--<dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.35</version>
@@ -106,7 +100,7 @@
         <groupId>com.alibaba</groupId>
         <artifactId>fastjson</artifactId>
         <version>1.2.48</version>
-    </dependency>
+    </dependency>-->
 
   <!-- 开发者工具，当classpath下有文件更新自动触发应用重启 -->
     <dependency>
