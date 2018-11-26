@@ -1,0 +1,22 @@
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`springboot_db` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+USE `springboot_db`;
+
+DROP TABLE IF EXISTS `t_author`;
+
+CREATE TABLE `t_author` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT '用户ID',
+  `real_name` varchar(32) NOT NULL COMMENT '用户名称',
+  `nick_name` varchar(32) NOT NULL COMMENT '用户昵称',
+  `is_del` int(2) DEFAULT 0 COMMENT '是否删除',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `t_depart`;
+CREATE TABLE `t_depart` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '部门编号',
+  `par_id` int(10) unsigned NOT NULL COMMENT '上级部门编号',
+  `dept_name` varchar(25) DEFAULT NULL COMMENT '部门名称',
+  `is_del` int(2) DEFAULT 0 COMMENT '是否删除',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
