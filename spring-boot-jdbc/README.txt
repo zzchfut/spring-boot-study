@@ -1,2 +1,2 @@
-»ùÓÚJdbcTemplateÊµÏÖÔöÉ¾¸Ä²éµÄSpring Boot Web¹¤³Ì£»
-  ¶ÀÁ¢µÄjdbc.properties£¬´¿´âµÄ×¢Èë·½Ê½
+åŸºäºJdbcTemplateå®ç°å¢åˆ æ”¹æŸ¥çš„Spring Boot Webå·¥ç¨‹ï¼›
+    ç‹¬ç«‹çš„jdbc.propertiesï¼Œçº¯ç²¹çš„æ³¨è§£æ–¹å¼
